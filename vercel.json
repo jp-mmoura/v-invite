@@ -4,9 +4,17 @@
     {
       "src": "*.html",
       "use": "@vercel/static"
+    },
+    {
+      "src": "*.css",
+      "use": "@vercel/static"
     }
   ],
   "routes": [
+    {
+      "src": "/style.css",
+      "dest": "/style.css"
+    },
     {
       "src": "/(.*)",
       "dest": "/e-invite.html"
