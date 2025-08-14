@@ -1,0 +1,16 @@
+{
+  "name": "entre-amigas-invite",
+  "version": "1.0.0",
+  "description": "E-invite for Entre Amigas event",
+  "main": "e-invite.html",
+  "scripts": {
+    "start": "npx serve .",
+    "build": "echo 'Static site - no build required'"
+  },
+  "keywords": ["invite", "event", "html", "css"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.2.1"
+  }
+} 
